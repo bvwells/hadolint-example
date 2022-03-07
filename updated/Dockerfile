@@ -6,7 +6,7 @@ RUN apk add --update --no-cache wget=1.21.1-r1 ca-certificates=20211220-r0 mailc
     ln -s /lib/libc.musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2
 
 # add health probe    
-RUN wget --progress=bar https://github.com/grpc-ecosystem/grpc-health-probe/releases/download/v0.3.0/grpc_health_probe-linux-amd64 && \
+RUN wget --progress=bar https://github.com/grpc-ecosystem/grpc-health-probe/releases/download/v0.4.8/grpc_health_probe-linux-amd64 && \
     mv grpc_health_probe-linux-amd64 /bin/grpc_health_probe && \
     chmod +x /bin/grpc_health_probe
 
