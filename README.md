@@ -2,7 +2,7 @@
 
 This repo shows an example of linting a Docker file with [Hadolint](https://github.com/hadolint/hadolint).
 
-The repo contains two Dockerfiles, the original Dockerfile which hadolint identifies issues with. 
+The repo contains two Dockerfiles, the original Dockerfile which Hadolint identifies issues with. 
 Run the command:
 
 ```bash
